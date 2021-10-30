@@ -1,0 +1,91 @@
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        max-width: 100%;
+    }
+    header {
+        width: 100%;
+        .nav ul {
+            display: none;
+        }
+        
+    }
+    .remove {
+        display: none;
+    }
+    .active {
+        nav {
+            width: 90%;
+        }
+        .nav ul {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 5%;
+            line-height: 4;
+            transition: all 650ms ease;
+        }
+        .hamb {
+            display: none;
+        }
+        .remove {
+            display: block;
+        }
+    }
+    .btns {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .start-container {
+        width: 100%;
+        .dollar, .pounds, .cadollar, .krone, .euro {
+            width: 90%;
+            line-height: 2;
+
+        }
+    }
+    #nairaInput {
+        width: 90%;
+    }
+    .naira {
+        left: 6%;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    body {
+        width: 550px;
+        max-width: 100%;
+    }
+    .start-container {
+        width: 100%;
+        padding: 2em 0;
+        
+        .dollar, .pounds, .cadollar, .krone, .euro {
+            width: 100%;
+            flex-direction: column;
+            h1 {
+                font-size: 15px;
+                
+            }
+            span {
+                display: nne;
+                width: 50%;
+                margin: 0 auto;
+            }
+            
+           
+        
+        }
+    }
+}

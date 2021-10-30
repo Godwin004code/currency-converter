@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin flexbox() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin important() {
+    width: 50%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em .5em;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px #cecece;
+
+}
+@mixin tanter() {
+    line-height: 2;
+    font-size: 20px;
+    width: 40%;
+}
+
+
+
+$primary-color: #fff;
+
+
